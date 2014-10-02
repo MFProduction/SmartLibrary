@@ -1,6 +1,6 @@
 from peewee import *
 from sys import argv
-database = MySQLDatabase('libraryDb', **{'passwd': 'adelaa', 'user': 'mf'})
+database = MySQLDatabase('libraryDb', **{'passwd': '*********', 'user': 'mf'})
 
 libDb_tables_name = ["Books", "Author"] #edded for scripts
 
